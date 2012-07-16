@@ -1,0 +1,493 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4FEE74D91334402D006E5696 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FEE74D81334402D006E5696 /* IOKit.framework */; };
+		A4008FAA133A984100F0A3E4 /* FFCPUInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = A4008FA9133A984100F0A3E4 /* FFCPUInfo.m */; };
+		A42405191343D0940005ACFF /* FFHDisks.m in Sources */ = {isa = PBXBuildFile; fileRef = A42405181343D0940005ACFF /* FFHDisks.m */; };
+		A45920F9133942B00032EA9F /* FFMemory.m in Sources */ = {isa = PBXBuildFile; fileRef = A45920F8133942B00032EA9F /* FFMemory.m */; };
+		A45DEBBB1333F291005DB102 /* FFKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = A45DEBB81333F291005DB102 /* FFKeyboard.m */; };
+		DA147673133BE4E300AA57A8 /* smc in Resources */ = {isa = PBXBuildFile; fileRef = DA147672133BE4E300AA57A8 /* smc */; };
+		DA14767E133BF19800AA57A8 /* NSString_Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = DA14767D133BF19800AA57A8 /* NSString_Additions.m */; };
+		DA1A4C2213451A5A006DA4EB /* FFWLan.m in Sources */ = {isa = PBXBuildFile; fileRef = DA1A4C2113451A5A006DA4EB /* FFWLan.m */; };
+		DA1A4C2513451A74006DA4EB /* CoreWLAN.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA1A4C2413451A74006DA4EB /* CoreWLAN.framework */; };
+		DA1A4C3A134532E1006DA4EB /* FFUser.m in Sources */ = {isa = PBXBuildFile; fileRef = DA1A4C39134532E1006DA4EB /* FFUser.m */; };
+		DA1A4C4A13453EC7006DA4EB /* FFUSBDevices.m in Sources */ = {isa = PBXBuildFile; fileRef = DA1A4C4913453EC7006DA4EB /* FFUSBDevices.m */; };
+		DA1B202A133291B400467C82 /* FFMouse.m in Sources */ = {isa = PBXBuildFile; fileRef = DA1B2029133291B400467C82 /* FFMouse.m */; };
+		DA1B568613393F770000B2A3 /* FFRPMCooler.m in Sources */ = {isa = PBXBuildFile; fileRef = DA1B568513393F770000B2A3 /* FFRPMCooler.m */; };
+		DA396AA2133D3253006269C1 /* FFNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = DA396AA1133D3253006269C1 /* FFNetwork.m */; };
+		DA4A682C133289C800C82218 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA4A682B133289C800C82218 /* Cocoa.framework */; };
+		DA4A6836133289C800C82218 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DA4A6834133289C800C82218 /* InfoPlist.strings */; };
+		DA4A6839133289C800C82218 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DA4A6838133289C800C82218 /* main.m */; };
+		DA4A683C133289C900C82218 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = DA4A683A133289C900C82218 /* Credits.rtf */; };
+		DA4A683F133289C900C82218 /* FootprintAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DA4A683E133289C900C82218 /* FootprintAppDelegate.m */; };
+		DA4A6842133289C900C82218 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA4A6840133289C900C82218 /* MainMenu.xib */; };
+		DA78F7181333D62700CF560E /* FFMouseDistance.m in Sources */ = {isa = PBXBuildFile; fileRef = DA78F7171333D62700CF560E /* FFMouseDistance.m */; };
+		DAA1B38813328B5700A4A3D7 /* FootprintFramework.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA1B38713328B5700A4A3D7 /* FootprintFramework.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4FEE74D81334402D006E5696 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		A4008FA8133A984100F0A3E4 /* FFCPUInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFCPUInfo.h; sourceTree = "<group>"; };
+		A4008FA9133A984100F0A3E4 /* FFCPUInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFCPUInfo.m; sourceTree = "<group>"; };
+		A42405171343D0940005ACFF /* FFHDisks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFHDisks.h; sourceTree = "<group>"; };
+		A42405181343D0940005ACFF /* FFHDisks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFHDisks.m; sourceTree = "<group>"; };
+		A45920F7133942B00032EA9F /* FFMemory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFMemory.h; sourceTree = "<group>"; };
+		A45920F8133942B00032EA9F /* FFMemory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFMemory.m; sourceTree = "<group>"; };
+		A45DEBB71333F291005DB102 /* FFKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFKeyboard.h; sourceTree = "<group>"; };
+		A45DEBB81333F291005DB102 /* FFKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFKeyboard.m; sourceTree = "<group>"; };
+		DA147672133BE4E300AA57A8 /* smc */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = smc; sourceTree = "<group>"; };
+		DA14767C133BF19800AA57A8 /* NSString_Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSString_Additions.h; sourceTree = "<group>"; };
+		DA14767D133BF19800AA57A8 /* NSString_Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSString_Additions.m; sourceTree = "<group>"; };
+		DA1A4C2013451A5A006DA4EB /* FFWLan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFWLan.h; sourceTree = "<group>"; };
+		DA1A4C2113451A5A006DA4EB /* FFWLan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFWLan.m; sourceTree = "<group>"; };
+		DA1A4C2413451A74006DA4EB /* CoreWLAN.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreWLAN.framework; path = System/Library/Frameworks/CoreWLAN.framework; sourceTree = SDKROOT; };
+		DA1A4C38134532E1006DA4EB /* FFUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFUser.h; sourceTree = "<group>"; };
+		DA1A4C39134532E1006DA4EB /* FFUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFUser.m; sourceTree = "<group>"; };
+		DA1A4C4813453EC7006DA4EB /* FFUSBDevices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFUSBDevices.h; sourceTree = "<group>"; };
+		DA1A4C4913453EC7006DA4EB /* FFUSBDevices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFUSBDevices.m; sourceTree = "<group>"; };
+		DA1B2028133291B400467C82 /* FFMouse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFMouse.h; sourceTree = "<group>"; };
+		DA1B2029133291B400467C82 /* FFMouse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFMouse.m; sourceTree = "<group>"; };
+		DA1B568413393F770000B2A3 /* FFRPMCooler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFRPMCooler.h; sourceTree = "<group>"; };
+		DA1B568513393F770000B2A3 /* FFRPMCooler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFRPMCooler.m; sourceTree = "<group>"; };
+		DA396AA0133D3253006269C1 /* FFNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFNetwork.h; sourceTree = "<group>"; };
+		DA396AA1133D3253006269C1 /* FFNetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFNetwork.m; sourceTree = "<group>"; };
+		DA4A6827133289C800C82218 /* Footprint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Footprint.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA4A682B133289C800C82218 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		DA4A682E133289C800C82218 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		DA4A682F133289C800C82218 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		DA4A6830133289C800C82218 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DA4A6833133289C800C82218 /* Footprint-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Footprint-Info.plist"; sourceTree = "<group>"; };
+		DA4A6835133289C800C82218 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DA4A6837133289C800C82218 /* Footprint-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Footprint-Prefix.pch"; sourceTree = "<group>"; };
+		DA4A6838133289C800C82218 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DA4A683B133289C900C82218 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		DA4A683D133289C900C82218 /* FootprintAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FootprintAppDelegate.h; sourceTree = "<group>"; };
+		DA4A683E133289C900C82218 /* FootprintAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FootprintAppDelegate.m; sourceTree = "<group>"; };
+		DA4A6841133289C900C82218 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		DA78F7121333D4F100CF560E /* FootprintFrameworkImports.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FootprintFrameworkImports.h; sourceTree = "<group>"; };
+		DA78F7161333D62700CF560E /* FFMouseDistance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFMouseDistance.h; sourceTree = "<group>"; };
+		DA78F7171333D62700CF560E /* FFMouseDistance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFMouseDistance.m; sourceTree = "<group>"; };
+		DA78F7191333D7EB00CF560E /* FootprintGlobals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FootprintGlobals.h; sourceTree = "<group>"; };
+		DAA1B38613328B5700A4A3D7 /* FootprintFramework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FootprintFramework.h; sourceTree = "<group>"; };
+		DAA1B38713328B5700A4A3D7 /* FootprintFramework.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FootprintFramework.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA4A6824133289C800C82218 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA1A4C2513451A74006DA4EB /* CoreWLAN.framework in Frameworks */,
+				4FEE74D91334402D006E5696 /* IOKit.framework in Frameworks */,
+				DA4A682C133289C800C82218 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A4008FA6133A981F00F0A3E4 /* FFCPUInfo */ = {
+			isa = PBXGroup;
+			children = (
+				A4008FA8133A984100F0A3E4 /* FFCPUInfo.h */,
+				A4008FA9133A984100F0A3E4 /* FFCPUInfo.m */,
+			);
+			name = FFCPUInfo;
+			sourceTree = "<group>";
+		};
+		A42405151343D0690005ACFF /* FFHDisks */ = {
+			isa = PBXGroup;
+			children = (
+				A42405171343D0940005ACFF /* FFHDisks.h */,
+				A42405181343D0940005ACFF /* FFHDisks.m */,
+			);
+			name = FFHDisks;
+			sourceTree = "<group>";
+		};
+		A45920F5133942610032EA9F /* FFMemory */ = {
+			isa = PBXGroup;
+			children = (
+				A45920F7133942B00032EA9F /* FFMemory.h */,
+				A45920F8133942B00032EA9F /* FFMemory.m */,
+			);
+			name = FFMemory;
+			sourceTree = "<group>";
+		};
+		A45DEBB51333F26B005DB102 /* FFKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				A45DEBB71333F291005DB102 /* FFKeyboard.h */,
+				A45DEBB81333F291005DB102 /* FFKeyboard.m */,
+			);
+			name = FFKeyboard;
+			sourceTree = "<group>";
+		};
+		DA1A4C36134532CD006DA4EB /* FFUser */ = {
+			isa = PBXGroup;
+			children = (
+				DA1A4C38134532E1006DA4EB /* FFUser.h */,
+				DA1A4C39134532E1006DA4EB /* FFUser.m */,
+			);
+			name = FFUser;
+			sourceTree = "<group>";
+		};
+		DA1A4C4413453E62006DA4EB /* FFUSBDevices */ = {
+			isa = PBXGroup;
+			children = (
+				DA1A4C4813453EC7006DA4EB /* FFUSBDevices.h */,
+				DA1A4C4913453EC7006DA4EB /* FFUSBDevices.m */,
+			);
+			name = FFUSBDevices;
+			sourceTree = "<group>";
+		};
+		DA1B20261332915200467C82 /* Footprint Framework */ = {
+			isa = PBXGroup;
+			children = (
+				DA78F7121333D4F100CF560E /* FootprintFrameworkImports.h */,
+				DA1B56C613395B0B0000B2A3 /* Helpers and Additions */,
+				DA78F7151333D60700CF560E /* Super Class */,
+				DA78F7141333D5BD00CF560E /* Workers */,
+			);
+			name = "Footprint Framework";
+			sourceTree = "<group>";
+		};
+		DA1B56C613395B0B0000B2A3 /* Helpers and Additions */ = {
+			isa = PBXGroup;
+			children = (
+				DA147672133BE4E300AA57A8 /* smc */,
+				DA14767C133BF19800AA57A8 /* NSString_Additions.h */,
+				DA14767D133BF19800AA57A8 /* NSString_Additions.m */,
+			);
+			name = "Helpers and Additions";
+			sourceTree = "<group>";
+		};
+		DA396A9E133D2C77006269C1 /* FFNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				DA396AA0133D3253006269C1 /* FFNetwork.h */,
+				DA396AA1133D3253006269C1 /* FFNetwork.m */,
+				DA1A4C2013451A5A006DA4EB /* FFWLan.h */,
+				DA1A4C2113451A5A006DA4EB /* FFWLan.m */,
+			);
+			name = FFNetwork;
+			sourceTree = "<group>";
+		};
+		DA45965513340E6100CD72C5 /* FFMouse */ = {
+			isa = PBXGroup;
+			children = (
+				DA1B2028133291B400467C82 /* FFMouse.h */,
+				DA1B2029133291B400467C82 /* FFMouse.m */,
+				DA78F7161333D62700CF560E /* FFMouseDistance.h */,
+				DA78F7171333D62700CF560E /* FFMouseDistance.m */,
+			);
+			name = FFMouse;
+			sourceTree = "<group>";
+		};
+		DA4A681C133289C800C82218 = {
+			isa = PBXGroup;
+			children = (
+				DA78F71B1333D80B00CF560E /* Interface */,
+				DA4A6831133289C800C82218 /* Footprint */,
+				DA4A6832133289C800C82218 /* Other Resources */,
+				DA4A682A133289C800C82218 /* Frameworks */,
+				DA4A6828133289C800C82218 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DA4A6828133289C800C82218 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA4A6827133289C800C82218 /* Footprint.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA4A682A133289C800C82218 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DA1A4C2413451A74006DA4EB /* CoreWLAN.framework */,
+				4FEE74D81334402D006E5696 /* IOKit.framework */,
+				DA4A682B133289C800C82218 /* Cocoa.framework */,
+				DA4A682D133289C800C82218 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DA4A682D133289C800C82218 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DA4A682E133289C800C82218 /* AppKit.framework */,
+				DA4A682F133289C800C82218 /* CoreData.framework */,
+				DA4A6830133289C800C82218 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		DA4A6831133289C800C82218 /* Footprint */ = {
+			isa = PBXGroup;
+			children = (
+				DA78F7191333D7EB00CF560E /* FootprintGlobals.h */,
+				DA4A683D133289C900C82218 /* FootprintAppDelegate.h */,
+				DA4A683E133289C900C82218 /* FootprintAppDelegate.m */,
+				DA1B20261332915200467C82 /* Footprint Framework */,
+			);
+			path = Footprint;
+			sourceTree = "<group>";
+		};
+		DA4A6832133289C800C82218 /* Other Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DA4A6833133289C800C82218 /* Footprint-Info.plist */,
+				DA4A6834133289C800C82218 /* InfoPlist.strings */,
+				DA4A6837133289C800C82218 /* Footprint-Prefix.pch */,
+				DA4A6838133289C800C82218 /* main.m */,
+				DA4A683A133289C900C82218 /* Credits.rtf */,
+			);
+			name = "Other Resources";
+			path = Footprint;
+			sourceTree = "<group>";
+		};
+		DA78F7141333D5BD00CF560E /* Workers */ = {
+			isa = PBXGroup;
+			children = (
+				DA1A4C4413453E62006DA4EB /* FFUSBDevices */,
+				DA1A4C36134532CD006DA4EB /* FFUser */,
+				A42405151343D0690005ACFF /* FFHDisks */,
+				DA396A9E133D2C77006269C1 /* FFNetwork */,
+				A4008FA6133A981F00F0A3E4 /* FFCPUInfo */,
+				DAA6D6021337D22200F1C4C0 /* FFRPMCooler */,
+				A45920F5133942610032EA9F /* FFMemory */,
+				DA45965513340E6100CD72C5 /* FFMouse */,
+				A45DEBB51333F26B005DB102 /* FFKeyboard */,
+			);
+			name = Workers;
+			sourceTree = "<group>";
+		};
+		DA78F7151333D60700CF560E /* Super Class */ = {
+			isa = PBXGroup;
+			children = (
+				DAA1B38613328B5700A4A3D7 /* FootprintFramework.h */,
+				DAA1B38713328B5700A4A3D7 /* FootprintFramework.m */,
+			);
+			name = "Super Class";
+			sourceTree = "<group>";
+		};
+		DA78F71B1333D80B00CF560E /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				DA4A6840133289C900C82218 /* MainMenu.xib */,
+			);
+			name = Interface;
+			sourceTree = "<group>";
+		};
+		DAA6D6021337D22200F1C4C0 /* FFRPMCooler */ = {
+			isa = PBXGroup;
+			children = (
+				DA1B568413393F770000B2A3 /* FFRPMCooler.h */,
+				DA1B568513393F770000B2A3 /* FFRPMCooler.m */,
+			);
+			name = FFRPMCooler;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA4A6826133289C800C82218 /* Footprint */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA4A6845133289C900C82218 /* Build configuration list for PBXNativeTarget "Footprint" */;
+			buildPhases = (
+				DA4A6823133289C800C82218 /* Sources */,
+				DA4A6824133289C800C82218 /* Frameworks */,
+				DA4A6825133289C800C82218 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Footprint;
+			productName = Footprint;
+			productReference = DA4A6827133289C800C82218 /* Footprint.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA4A681E133289C800C82218 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = DA4A6821133289C800C82218 /* Build configuration list for PBXProject "Footprint" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DA4A681C133289C800C82218;
+			productRefGroup = DA4A6828133289C800C82218 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA4A6826133289C800C82218 /* Footprint */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA4A6825133289C800C82218 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA4A6836133289C800C82218 /* InfoPlist.strings in Resources */,
+				DA4A683C133289C900C82218 /* Credits.rtf in Resources */,
+				DA4A6842133289C900C82218 /* MainMenu.xib in Resources */,
+				DA147673133BE4E300AA57A8 /* smc in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA4A6823133289C800C82218 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA4A6839133289C800C82218 /* main.m in Sources */,
+				DA4A683F133289C900C82218 /* FootprintAppDelegate.m in Sources */,
+				DAA1B38813328B5700A4A3D7 /* FootprintFramework.m in Sources */,
+				DA1B202A133291B400467C82 /* FFMouse.m in Sources */,
+				DA78F7181333D62700CF560E /* FFMouseDistance.m in Sources */,
+				A45DEBBB1333F291005DB102 /* FFKeyboard.m in Sources */,
+				DA1B568613393F770000B2A3 /* FFRPMCooler.m in Sources */,
+				A45920F9133942B00032EA9F /* FFMemory.m in Sources */,
+				DA14767E133BF19800AA57A8 /* NSString_Additions.m in Sources */,
+				A4008FAA133A984100F0A3E4 /* FFCPUInfo.m in Sources */,
+				DA396AA2133D3253006269C1 /* FFNetwork.m in Sources */,
+				DA1A4C2213451A5A006DA4EB /* FFWLan.m in Sources */,
+				A42405191343D0940005ACFF /* FFHDisks.m in Sources */,
+				DA1A4C3A134532E1006DA4EB /* FFUser.m in Sources */,
+				DA1A4C4A13453EC7006DA4EB /* FFUSBDevices.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DA4A6834133289C800C82218 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA4A6835133289C800C82218 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DA4A683A133289C900C82218 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA4A683B133289C900C82218 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		DA4A6840133289C900C82218 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA4A6841133289C900C82218 /* en */,
+			);
+			name = MainMenu.xib;
+			path = Footprint;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DA4A6843133289C900C82218 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		DA4A6844133289C900C82218 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DA4A6846133289C900C82218 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Footprint/Footprint-Prefix.pch";
+				INFOPLIST_FILE = "Footprint/Footprint-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DA4A6847133289C900C82218 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Footprint/Footprint-Prefix.pch";
+				INFOPLIST_FILE = "Footprint/Footprint-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA4A6821133289C800C82218 /* Build configuration list for PBXProject "Footprint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA4A6843133289C900C82218 /* Debug */,
+				DA4A6844133289C900C82218 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA4A6845133289C900C82218 /* Build configuration list for PBXNativeTarget "Footprint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA4A6846133289C900C82218 /* Debug */,
+				DA4A6847133289C900C82218 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DA4A681E133289C800C82218 /* Project object */;
+}
